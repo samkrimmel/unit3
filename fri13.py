@@ -12,10 +12,11 @@ day = date.today().day
 frinum = 0
 
 while frinum < 10:
-    if weekday() == 4 and day == 13:
-        print(month/day/year)
-        frinum += 1
-
-    if date.today().day > 13:
-        if weekday(year,month,13) == 4:
+    if day >= 13:  #If the 13th of the month has already passed
+        if weekday(year,month,13) == 4:   #If the current day is the 13th
             print(month,"/",13,"/",year)
+        while monthnum <= 12:
+            if weekday(year,month,13) == 4:
+                print(month,"/",13,"/",year)
+            elif:
+                month += 1
