@@ -15,8 +15,10 @@ while frinum < 10:
     if day >= 13:  #If the 13th of the month has already passed
         if weekday(year,month,13) == 4:   #If the current day is the 13th
             print(month,"/",13,"/",year)
+            frinum += 1
         while monthnum <= 12:
             if weekday(year,month,13) == 4:
                 print(month,"/",13,"/",year)
+                frinum += 1
             elif:
                 month += 1
