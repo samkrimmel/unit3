@@ -16,9 +16,10 @@ while frinum < 10:
         if weekday(year,month,13) == 4:   #If the current day is the 13th
             print(month,"/",13,"/",year)
             frinum += 1
-        while month <= 12:
-            if weekday(year,month,13) == 4:
-                print(month,"/",13,"/",year)
-                frinum += 1
-            else:
-                month += 1
+        else:
+            while month <= 12:
+                if weekday(year,month,13) == 4:
+                    print(month,"/",13,"/",year)
+                    frinum += 1
+                else:
+                    month += 1
