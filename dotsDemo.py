@@ -4,10 +4,10 @@
 
 from ggame import *
 
-colr = Color(0x00FF00,1)
+green = Color(0x00FF00,1)
 
-dot = CircleAsset(5,LineStyle(1,colr),colr)
+dot = CircleAsset(5,LineStyle(1,green),green)
 
-Sprite(dot)
+Sprite(dot,(10,15))
 
 App().run()
