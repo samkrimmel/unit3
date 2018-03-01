@@ -24,10 +24,9 @@ while frinum < 10:
                 else:
                     month += 1
     else:
-        monthnum = month
-        while monthnum <= 12:
+        while month <= 12:
                 if weekday(year,month,13) == 4:
                     print(month,"/",13,"/",year)
                     frinum += 1
                 else:
-                    monthnum += 1
+                    month += 1
