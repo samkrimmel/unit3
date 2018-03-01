@@ -9,7 +9,7 @@ green = Color(0x00FF00,1)
 dot = CircleAsset(5,LineStyle(1,green),green)
 
 for i in range(10):
-    Sprite(dot,(10+i,15))
+    Sprite(dot,(10+(25*i),15))
 
 
 App().run()
