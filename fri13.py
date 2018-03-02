@@ -12,7 +12,7 @@ day = date.today().day
 frinum = 0
 
 while frinum < 10:
-    if weekday(year,month,13) == 4:   #If the 13th of the next month is fri13
+    if weekday(year,month,13) == 4:   
         print(month,"/",13,"/",year)
         frinum += 1
         month += 1
