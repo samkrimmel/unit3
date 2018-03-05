@@ -14,3 +14,8 @@ total = 0
 for i in range(-100,1001,2):
     total += i 
 print(total)
+
+while True:
+    text = input('Enter text: ')
+    if 'alpaca' in text:
+        break
