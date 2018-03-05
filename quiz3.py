@@ -7,3 +7,6 @@ while x <= -9:
     print(x)
     x+=1
 
+for i in range(50,14,-4):
+    print(i)
+
