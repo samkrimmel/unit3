@@ -11,6 +11,6 @@ for i in range(50,14,-4):
     print(i)
 
 total = 0
-for i in range(-100,1001):
+for i in range(-100,1001,2):
     total += i 
 print(total)
